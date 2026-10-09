@@ -38,7 +38,7 @@ jobs:
         run: npm run build
         working-directory: Frontend
         env:
-          VITE_API_URL: https://todo-manager-a6u3.onrender.com/api
+          VITE_API_URL: https://todo-manager-production-2a79.up.railway.app/api
 
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
